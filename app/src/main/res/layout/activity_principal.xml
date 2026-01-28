@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003566"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/playerText"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginBottom="25dp"
+        android:background="#003566"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Player:"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="80dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="7dp"
+        android:background="@drawable/bordas_arredondadas"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="57dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="55dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pushpin" />
+
+        <TextView
+            android:id="@+id/numQuestao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="questão 1"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/perguntaText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Primeira pergunta:"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonA"
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#4e148c"
+            android:fontFamily="casual"
+            android:text="A"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonB"
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#4e148c"
+            android:fontFamily="casual"
+            android:text="B"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#4e148c"
+            android:fontFamily="casual"
+            android:text="C"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pontosText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#003566"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Pontos: 0"
+        android:textColor="@color/white"
+        android:textSize="37dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/erradasText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#003566"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="37dp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

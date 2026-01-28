@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VitoriaActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Parabens\nvoce ganhou"
+        android:textAlignment="center"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346" />
+
+    <TextView
+        android:id="@+id/pontuacaoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="voce fez: "
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:fontFamily="casual"
+        android:text="Jogar novamente"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pontuacaoText"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Desenvolvido por: Pedro Penoi"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-56dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

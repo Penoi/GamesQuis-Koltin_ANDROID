@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="perguntas_quiz">
+        <!-- 1 -->
+        <item>Quantas Libertadores tem o São Paulo?</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+
+        <!-- 2 -->
+        <item>Clube com mais Libertadores?</item>
+        <item>Independiente</item>
+        <item>Boca Juniors</item>
+        <item>Peñarol</item>
+        <item>0</item>
+
+        <!-- 3 -->
+        <item>Libertadores 2024?</item>
+        <item>Flamengo</item>
+        <item>Palmeiras</item>
+        <item>Flamengo</item>
+        <item>1</item>
+
+        <!-- 4 -->
+        <item>Único brasileiro invicto na Liberta?</item>
+        <item>Grêmio 2017</item>
+        <item>São Paulo 2005</item>
+        <item>Flamengo 1981</item>
+        <item>0</item>
+
+        <!-- 5 -->
+        <item>Maior goleada brasileira Liberta?</item>
+        <item>Santos 12x0 Jorge Wilstermann</item>
+        <item>Grêmio 11x0</item>
+        <item>Palmeiras 10x0</item>
+        <item>0</item>
+
+        <!-- 6 -->
+        <item>Artilheiro histórico Liberta?</item>
+        <item>Alberto Spencer</item>
+        <item>Pedro Rocha</item>
+        <item>Luizão</item>
+        <item>0</item>
+
+        <!-- 7 -->
+        <item>Brasileiro com mais gols numa Liberta?</item>
+        <item>Luizão (13)</item>
+        <item>Romário (10)</item>
+        <item>Washington (11)</item>
+        <item>0</item>
+
+        <!-- 8 -->
+        <item>Final Liberta 2019?</item>
+        <item>Flamengo x River</item>
+        <item>Palmeiras x Athletico</item>
+        <item>São Paulo x Boca</item>
+        <item>0</item>
+
+        <!-- 9 -->
+        <item>Mais títulos brasileiros Liberta?</item>
+        <item>Argentina (25)</item>
+        <item>Brasil (24)</item>
+        <item>Uruguai (8)</item>
+        <item>1</item>
+
+        <!-- 10 -->
+        <item>Gol mais rápido Liberta final?</item>
+        <item>14s Gabigol</item>
+        <item>22s Borré</item>
+        <item>30s Sorín</item>
+        <item>0</item>
+
+        <!-- 11 -->
+        <item>Libertadores sem brasileiros?</item>
+        <item>1960</item>
+        <item>1966</item>
+        <item>1971</item>
+        <item>0</item>
+
+        <!-- 12 -->
+        <item>Estádio com mais Liberta?</item>
+        <item>Monumental (13)</item>
+        <item>Maracanã (8)</item>
+        <item>Centenário (11)</item>
+        <item>0</item>
+
+        <!-- 13 -->
+        <item>Técnico brasileiro mais Liberta?</item>
+        <item>Telê Santana (2)</item>
+        <item>Luiz Felipe Scolari (1)</item>
+        <item>Abel Ferreira (2)</item>
+        <item>2</item>
+
+        <!-- 14 -->
+        <item>Clube brasileiro sem Liberta?</item>
+        <item>Vasco</item>
+        <item>Botafogo</item>
+        <item>Fluminense</item>
+        <item>1</item>
+
+        <!-- 15 -->
+        <item>Libertadores com VAR?</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2</item>
+
+        <!-- 16 -->
+        <item>Maior público final Liberta BR?</item>
+        <item>Grêmio 1995 (80mil)</item>
+        <item>São Paulo 1993 (110mil)</item>
+        <item>Inter 2006 (85mil)</item>
+        <item>1</item>
+
+        <!-- 17 -->
+        <item>1º brasileiro campeão Liberta?</item>
+        <item>Santos 1962</item>
+        <item>Palmeiras 1999</item>
+        <item>Grêmio 1983</item>
+        <item>0</item>
+
+        <!-- 18 -->
+        <item>Libertadores sem final única?</item>
+        <item>1963</item>
+        <item>1967</item>
+        <item>1972</item>
+        <item>0</item>
+    </string-array>
+</resources>
